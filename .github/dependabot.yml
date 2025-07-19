@@ -32,3 +32,58 @@ updates:
       interval: daily
     reviewers:
       - igalklebanov
+
+  - package-ecosystem: npm
+    directory: /examples/bun
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/deno-package-json
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-cjs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-esm-environments
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-esm-environments/packages/lib1
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-esm-environments/packages/lib2
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-esm-jsx
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-esm-top-level-await
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-esm-tsconfig-paths
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/node-esm
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
